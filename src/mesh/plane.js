@@ -19,8 +19,4 @@ const material = new THREE.MeshPhongMaterial({
 });
 const plane = new THREE.Mesh(geometry, material);
 
-plane.position.z = -50;
-plane.rotateX(-Math.PI/2);
-
-
 export default plane;
